@@ -1,3 +1,8 @@
+# FORKED
+
+* v 1.3 of the original repo. changes:
+  * changed the api url to the live one
+
 # Secuconnect PHP SDK
 
 For more information please visit: [https://developer.secuconnect.com/](https://developer.secuconnect.com)
