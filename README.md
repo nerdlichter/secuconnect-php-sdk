@@ -2,6 +2,7 @@
 
 * v 1.3 of the original repo. changes:
   * changed the api url to the live one
+  * storage/secupayCache/ should exist for cache files
 
 # Secuconnect PHP SDK
 
