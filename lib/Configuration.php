@@ -196,7 +196,7 @@ class Configuration
     public function __construct($cache = null, $printer = null)
     {
         $this->tempFolderPath = sys_get_temp_dir();
-        $this->cache = $cache ?: new FileCache();
+        $this->cache = $cache ?: new FileCache(__DIR__ . '/../../../../storage/secupayCache/');
         $this->printer = $printer ?: new ImitationDevicePrinter();
     }
 
